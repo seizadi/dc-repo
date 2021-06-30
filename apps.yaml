@@ -1,0 +1,5 @@
+apps:
+  cmdb:
+    namespace: cmdb
+    owner: seizadi@acme.com
+    repo: https://github.com/seizadi/cmdb
