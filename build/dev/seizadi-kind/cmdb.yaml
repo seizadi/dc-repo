@@ -4,3 +4,6 @@ cmdb:
   ingress:
     hosts:
     - host: localhost
+      paths:
+      - path: /cmdb
+        pathType: ImplementationSpecific

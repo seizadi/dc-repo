@@ -4,4 +4,7 @@ cmdb:
 
   ingress:
     hosts:
-      - host: minikube
+      - host: localhost
+        paths:
+          - path: /cmdb
+            pathType: ImplementationSpecific
