@@ -1,5 +1,5 @@
 envs:
-  dev/seizadi-minikube: {}
-  dev/seizadi-kind: {}
+  dev/minikube: {}
+  dev/kind: {}
   prod/seizadi-eks: {}
 
