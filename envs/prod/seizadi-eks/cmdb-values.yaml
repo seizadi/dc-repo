@@ -2,3 +2,6 @@ cmdb:
   image:
     tag: seizadi-dev-4d95422-unsupported
 
+postgresql:
+  ## Disable use of the PostgreSQL chart dependency we use RDS on prod
+  enabled: false
