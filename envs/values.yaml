@@ -1,0 +1,3 @@
+host:
+  ui:
+    domain: "{{ .Values.env }}.{{ .Values.zone }}"
