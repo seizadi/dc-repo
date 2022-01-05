@@ -26,6 +26,8 @@ that is only managed by a micro-service materializing the dc-repo changes
 to this repo.
 
 - Install ArgoCD
+***[There is an open issue preventing use of ArgoCD with this pattern](https://github.com/argoproj/argo-cd/pull/6280)***
+
 ```bash
 kubectl create namespace argocd
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
